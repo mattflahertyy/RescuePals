@@ -1,0 +1,186 @@
+html, body {
+    height: 100%;
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(255, 178, 110);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem;
+    height: 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.headertable {
+    width: 120%;
+    height: 10%;
+    table-layout: fixed;
+}
+
+.sidebar {
+    background-color: rgb(150, 208, 227);
+    background-color: burlywood;
+    color: darkblue;
+    text-align: center;
+    float: left;
+    width: 15%;
+    padding-bottom: 7%;
+    overflow: auto;
+    height: 80%;
+}
+
+.main {
+    background-color: rgb(255, 231, 210);
+    text-align: center;
+    float: right;
+    width: 85%;
+    margin-top: 0;
+    overflow: auto;
+    padding-bottom: 7%;
+    height: 80%;
+    margin:0;
+}
+
+.browse-pets-table {
+    height: 1200px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+
+    color:rgb(110, 38, 14);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.petform {
+    color:rgb(110, 38, 14);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.browse-pets-table td {
+    border: 1px solid black;
+}
+
+.footer {
+    background-color: rgb(255, 178, 110);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 7%;
+    clear: both;
+    margin-top: -1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.6em;
+    padding-top: 10px;
+}
+
+.headersmallertitle {
+    font-size: 0.8em;
+}
+
+.sidebar a {
+    padding-top: 8%;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  }
+
+.sidebar h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+} 
+
+.sidebar a:hover {
+    color: white;
+}
+
+
+form {
+    width: 80%;
+    display: inline-block;
+    
+}
+
+fieldset {
+    background-color:rgb(193, 154, 107);
+    border-radius: 10px;
+}
+
+.italic {
+    font-size: 1.2em;
+}
+
+.homepagetext {
+    text-align: left;
+}
+
+.homepictable {
+    float: right;
+}
+
+.welcomemessage {
+    font-size: 4em;
+    color: rgb(33, 114, 106);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.companyinfo {
+    
+    font-size: 1.5em;
+    padding: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.petcare {
+    text-align: left;
+    padding: 1rem;
+}
+
+.petcaredescription {
+    width: 55%;
+}
+
+.title {
+    color:rgb(110, 38, 14);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.caretables{
+    margin-left: auto;  
+    margin-right: auto; 
+    margin-top: 1rem;
+    border: 2px solid black;
+}
+
+.image {
+    text-align: center;
+}
+
+.commentarea {
+    height: 100px;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.formmessage {
+    padding: 15px;
+}
+
+.petform {
+    font-size: 1.25em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.createuser {
+    font-size: 1.25em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
